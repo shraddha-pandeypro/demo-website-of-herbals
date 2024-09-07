@@ -1,0 +1,244 @@
+
+
+.contact-bar {
+    background-color: #7cd190; /* Green background */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.contact-info a, .contact-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info a:hover, .contact-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-links {
+    display: flex;
+    gap: 15px;
+}
+
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between logo and nav items */
+    padding: 10px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 50px; /* Adjust size as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    color: #423b3b;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+
+.nav-list a:hover {
+    background-color: #d9e1e9;
+    border-radius: 5px;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    flex-wrap: wrap;
+    width: 1170px;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    border: 1px seashell;
+}
+
+.services {
+    flex-basis: 20%;
+    background-color: #faf3f3;
+margin: 50px 0px;
+}
+
+.services h4 {
+    padding: 10px 0px;
+
+}
+
+.services p{
+
+    font-size: 15px ;
+    padding: 5px;
+    
+} 
+
+.services button{
+
+    background: rgb(167, 248, 167);
+    padding: 10px 25px;
+    color: #07290d;
+    border: none;
+    margin: 10px 50px;
+    border-radius:10px; 
+
+}
+
+.services :hover button {
+
+background: rgb(148, 185, 95);
+color: #0d3514;
+}
+
+
+
+
+.container2  {
+    flex-wrap: wrap;
+    width: 1170px;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    border: 1px seashell;
+}
+
+.services2 {
+    flex-basis: 30%;
+    background-color: #faf3f3;
+margin: 100px 10px;
+}
+
+.services2 h4 {
+    padding: 10px 0px;
+
+}
+
+.services2 p{
+
+    font-size: 20px ;
+    padding: 10px;
+
+} 
+
+.services2 button{
+
+    background: rgb(217, 236, 217);
+    padding: 10px 25px;
+    color: #212221;
+    border: 5px;
+    margin: 10px 50px;
+     
+
+}
+
+.services2 :hover button {
+
+background: rgb(207, 214, 197);
+color: #0e110f;
+}
+
+
+
+
+/* Footer Styling */
+footer {
+    background-color: #302a2a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 0px;
+    max-width: 1200px;
+    margin: 0 ;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 0px;
+}
+
+.footer-section h2 {
+    border-bottom: 2px solid #1e3d28;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin: 0px 0;
+}
+
+.footer-section a {
+    color: #aae9a8;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #463737;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+
+@media only screen and (min-width:200px) and (max-width: 767px){
+
+.container {
+    width: 100%;
+}
+.services {
+    margin: 20px 10px;
+}
+
+.container2{
+    width: 100%;
+}
+
+.services2{
+
+    margin: 20px 10px;  
+}
+
+}
